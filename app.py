@@ -4,8 +4,7 @@ from flask import Flask
 import threading
 
 # إعدادات التلجرام
-TELEGRAM_TOKEN = "8521910876:AAEe2QZWRV4C38WAjWdWKqkCU1MTwK_G7gY"
-CHAT_ID = "ضع_رقم_ID_حسابك_هنا" 
+TELEGRAM_TOKEN = "8521910876:AAEe2QZWRV4C38WAjWdWKqkCU1MTwK_G7gY" 
 
 app = Flask('')
 
