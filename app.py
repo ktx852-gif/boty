@@ -32,3 +32,5 @@ if __name__ == "__main__":
     # تشغيل Flask في خيط منفصل لإبقاء السيرفر حياً
     threading.Thread(target=lambda: app.run(host='0.0.0.0', port=8080)).start()
     run_trading_logic()
+flask
+requests
