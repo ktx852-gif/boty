@@ -23,12 +23,12 @@ def send_telegram_msg(message):
 
 def run_trading_logic():
     # رسالة ترحيبية عند بدء التشغيل
-    send_telegram_msg("🚀 **تم تشغيل البوت بنجاح!**\nالبوت الآن متصل ويراقب الأسواق.")
+    send_telegram_msg("🚀 **تم تشغيل البوت بنجاح!**\nالبوت متصل الآن بـ Render ويراقب السوق.")
     while True:
-        # هنا ستوضع خوارزمية الإشارات لاحقاً
+        # هنا سنضيف خوارزمية التداول في الخطوة القادمة
         time.sleep(3600)
 
 if __name__ == "__main__":
-    # تشغيل السيرفر في الخلفية
+    # تشغيل Flask في خيط منفصل لإبقاء السيرفر حياً
     threading.Thread(target=lambda: app.run(host='0.0.0.0', port=8080)).start()
     run_trading_logic()
