@@ -2,7 +2,6 @@ import requests
 import time
 from flask import Flask
 import threading
-
 # --- إعدادات البوت ---
 # تم وضع التوكن الخاص بك ورقم الـ ID الصحيح بناءً على صورك
 TELEGRAM_TOKEN = "8521910876:AAEe2QZWRV4C38WAjWdWKqkCU1MTwK_G7gY"
