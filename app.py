@@ -4,7 +4,7 @@ from flask import Flask
 import threading
 # --- إعدادات البوت ---
 # تم وضع التوكن الخاص بك ورقم الـ ID الصحيح بناءً على صورك
-TELEGRAM_TOKEN = "8521910876:AAEe2QZWRV4C38WAjWdWKqkCU1MTwK_G7gY"
+TELEGRAM_TOKEN =8521910876:AAHKf1nh518y-ZwHU7u4EeF9asO2BErS5rI
 CHAT_ID = "841804153" 
 
 app = Flask('')
